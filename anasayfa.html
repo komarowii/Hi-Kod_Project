@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geleceğini Sürdür!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Titillium Web', sans-serif;
+            background-color: #e0f7e9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-image: url('https://images.unsplash.com/photo-1530176928500-2372a88e00b5?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        header {
+            background-color: #4caf50;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.7em;
+            color: white;
+            font-weight:700
+        }
+        header a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1em;
+        }
+        header a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .box {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .box h2 {
+            color: #4caf50;
+            margin-top: 0;
+        }
+        .box p {
+            line-height: 1.6;
+        }
+        .box:hover {
+            background-color: #4caf50;
+            color: white;
+        }
+        .box:hover h2 {
+            color: white;
+        }
+        .sustainability-section {
+            background-color: #f0f8f4; opacity: 40;
+            font-weight: 500;
+            padding: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .sustainability-section p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #4caf50;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        footer form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        footer form input,
+        footer form textarea {
+            width: calc(100% - 20px);
+            margin: 5px 0;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        footer form button {
+            background-color: white;
+            color: #4caf50;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer form button:hover {
+            background-color: #e0f7e9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Geleceğini Sürdür!</h1>
+        <nav>
+            <a href="#anasayfa">Neler yapabilirim?</a>
+            <a href="#iletisim">Sorularım var!</a>
+        </nav>
+    </header>
+    
+    <section class="sustainability-section">
+        <p>Sürdürülebilirlik, mevcut ihtiyaçlarımızı karşılarken gelecek nesillerin kendi ihtiyaçlarını karşılayabilme yeteneğini tehlikeye atmadan yaşama ilkesidir. Çevresel, ekonomik ve sosyal boyutları kapsayan sürdürülebilirlik, gezegenimizin uzun vadeli sağlığını ve refahını sağlamayı amaçlar. Bu nedenle, doğal kaynakların korunması, çevre kirliliğinin azaltılması ve sosyal adaletin teşvik edilmesi gibi konular, sürdürülebilirliğin temel unsurları arasında yer alır.</p>
+        <p>Günümüzde, iklim değişikliği, kaynakların tükenmesi ve çevresel bozulma gibi sorunlar giderek artmaktadır. Bu durum, bireyler ve toplumlar olarak sürdürülebilir yaşam tarzlarını benimsememizi ve günlük rutinlerimizde daha bilinçli seçimler yapmamızı gerektirmektedir. Sürdürülebilirlik sadece büyük ölçekli politikalar ve projelerle değil, aynı zamanda bireysel düzeyde alınan küçük ve etkili adımlarla da sağlanabilir.</p>
+        <p>Bu sayfada, sürdürülebilir bir yaşam tarzını benimseyebilmek için basit ve uygulanabilir ipuçları bulacaksın. Her bir adım, çevreye karşı olumsuz etki yaratma olasılığını azaltmana ve daha yeşil bir geleceğe katkıda bulunmana yardımcı olacak. Küçük değişikliklerin bile büyük farklar yaratabileceğini unutma.<p>
+        </p> Şimdi Dünya için harekete geçme zamanı!</p>
+    </section>
+    
+    <main class="content" id="anasayfa">
+
+        <div class="box">
+            <h2>Sürdürülebilir Ulaşımı Seç</h2>
+            <p>Toplu taşıma kullanmak, araba kullanmak yerine yılda yaklaşık 990 kilogram CO2 emisyonunu azaltabilir. Bireysel araba kullanımını azaltmak ve emisyonları düşürmek için otobüsleri, trenleri veya ortaklaşa araç kullanmayı tercih edin.</p>
+        </div>
+        
+        <div class="box">
+            <h2>Su Tasarrufu Yap</h2>
+            <p>5 dakikalık bir duş, 10 dakikalık bir duşa göre 75 litreye kadar su tasarrufu sağlayabilir. Duş sürelerinizi kısaltın, sızıntıları hemen onarın ve su tasarruflu armatürler kullanın.</p>
+        </div>
+        
+        <div class="box">
+            <h2>Yeniden Kullan</h2>
+            <p>Yeniden kullanılabilir bir su şişesi kullanmak, kişi başına yılda ortalama 156 plastik şişeyi kurtarabilir. Atıkları azaltmak için tek kullanımlık plastiklerin yerine su şişeleri, çantalar ve kahve fincanları gibi yeniden kullanılabilir eşyaları tercih edin.</p>
+        </div>
+        
+        <div class="box">
+            <h2>Bahçe Ekimi Yap</h2>
+            <p>Kendi sebzelerinizi yetiştirmek, yıllık gıda harcamalarınızı yaklaşık 500 dolar azaltabilir ve karbon ayak izinizi düşürebilir. Taze ürünlerin tadını çıkarmak ve mağazadan satın alınan ürünlere bağımlılığınızı azaltmak için bir bahçe başlatın.</p>
+        </div>
+        
+        <div class="box">
+            <h2>Organik Atıkları Kompostla</h2>
+            <p>Kompostlama, evsel atıkları %30'a kadar azaltabilir ve bahçecilik için besin açısından zengin toprak üretebilir. Mutfak atıklarını ve bahçe atıklarını kompostlayarak çöplük katkısını azaltın ve bahçe toprağınızı zenginleştirin.</p>
+        </div>
+        
+        <div class="box">
+            <h2>Kağıt Kullanımını Azalt</h2>
+            <p>Dijital belgeler tercih etmek, ortalama bir ofis çalışanının yılda 10,000 yaprak kağıt tasarrufu yapmasını sağlayabilir. Kağıt atıklarını azaltmak için dijital belgeleri tercih edin ve yazdırmanız gerektiğinde kağıdın her iki yüzünü de kullanın.</p>
+        </div>
+
+        <div class="box">
+            <h2>Sürdürülebilir Beslen</h2>
+            <p>Et tüketimini yarıya indirmek, gıdayla ilgili karbon ayak izinizi %40'tan fazla azaltabilir. Yerel ve organik gıdaları tercih edin ve israfı en aza indirmek için yemeklerinizi planlayın.</p>
+        </div>
+
+        <div class="box">
+            <h2>Yenilenebilir Enerji Kullan</h2>
+            <p>Yenilenebilir enerjiye geçmek, evinizin karbon ayak izini %60'a kadar azaltabilir. Evinizi güçlendirmek ve fosil yakıtlara olan bağımlılığı azaltmak için güneş veya rüzgar gibi yenilenebilir enerji kaynaklarını tercih edin.</p>
+        </div>
+
+        <div class="box">
+            <h2>Çevresel Politikalara Destek Ol</h2>
+            <p>Yenilenebilir enerjiyi ve sürdürülebilirliği teşvik eden politikalar, 2050 yılına kadar sera gazı emisyonlarında %70 azalmaya yol açabilir. Çevreyi koruyan ve sürdürülebilir uygulamaları teşvik eden politikaları destekleyin ve savunun.</p>
+        </div>
+    </main>
+    <footer id="iletisim">
+        <h2>Sorularım var!</h2>
+        <form>
+            <input type="text" placeholder="İsim" required>
+            <input type="email" placeholder="Mail Adresi" required>
+            <textarea placeholder="Mesaj veya Sorular" rows="4" required></textarea>
+            <button type="submit">Gönder</button>
+        </form>
+    </footer>
+</body>
+</html>
